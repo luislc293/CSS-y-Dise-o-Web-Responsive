@@ -1,0 +1,403 @@
+@font-face {
+font-family:'DancingScript';
+src: url('DancingScript-Regular.ttf');
+}
+
+body{
+  width: 900px;
+
+}
+#Contenedor {
+width: 90%;
+margin: 0 auto;
+padding: 10px;
+font-size: 2em;
+font-family: 'DancingScript';
+color:white;
+padding: 0;
+align: center;
+background-color: #02010a;
+display: flex;
+flex-direction: column;
+}
+
+
+#encabezado {
+  width:100%;
+  font-size:100%;
+  background-color:#5b7989;
+  border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  display: inline-block;
+  text-shadow: 2px 2px #02010a;
+}
+.menu {
+  width: 100;
+  display:flex;
+  flex-flow:  row;
+  padding: 5px;
+
+}
+ .menu>  p{
+   width: 100%;
+   display: block;
+   margin: 0 auto;
+   color: white;
+   padding-right: 1px;
+  }
+
+  #encabezado  a{
+    padding-right: 0.6em;
+    float: right;
+    color: white;
+    margin: 0
+  }
+
+
+.contenido {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+	}
+
+  .imagen_central{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color:  #82c3a6;
+  }
+
+.imagen1> img{
+  margin: 2em;
+  text-align: center;
+  width:80%;
+  box-shadow:2px 2px 2px 2px #02010a;
+
+}
+
+.imagen-secundaria {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    background-color: #d5c75f;
+    }
+
+.imagen-secundaria a{
+    color:black;
+  }
+
+  .imagen2{
+    display: block;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 1%;
+    order: 1;
+    }
+
+.imagen2 >a{
+  display:block;
+  float: left;
+  margin-left: 1%;
+  padding-left: 5em;
+  color: black;
+
+
+}
+
+.imagen2> img{
+  display: block;
+  float: left;
+  margin-left: 12%;
+  margin-top: 0.5%;
+  height: 200px;
+  width: 80%;
+  text-align: left;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  box-shadow:2px 2px 2px 2px #02010a;
+}
+
+.imagen2 img:hover{
+	-ms-transform: rotate(10deg); /* IE 9 */
+	-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+	transform: rotate(10deg);
+  text-shadow: #82c3a6;
+  border: 2px solid
+}
+.imagen3{
+  width: 100%;
+  padding-top: 3%;
+  order: 2;
+}
+.imagen3> a{
+  display:block;
+  float: right;
+  margin-right: 1%;
+  padding-right:5em;
+  color:black;
+}
+.imagen3> img{
+  margin-right: 14%;
+  margin-top: 0.5%;
+  display: block;
+  height: 200px;
+  width: 80%;
+  float: right;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  box-shadow:2px 2px 2px 2px #02010a;
+}
+
+.imagen3 img:hover{
+-ms-transform:translate3D(20px, -5px, 0px);
+-webkit-transform:translate3D(20px, -5px, 0px);
+transition: translate3D(20px, -5px, 0px);
+text-shadow: #82c3a6;
+border: 2px solid;
+}
+
+footer {
+  width: 100%;
+  color: black;
+  padding: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+background-color: #C6d5c5;
+border-radius:  0 0 10px 10px;
+-moz-border-radius: 0 0 10px 10px;
+-webkit-border-radius: 0 0 10px 10px;
+}
+#contenedor3{
+  margin: auto;
+  padding: 0;
+  font-size: 0.8em;
+  text-align: center;
+}
+}
+#contenedor3 p{
+  font-size:20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#contenedor3 a{
+  color: black;
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  padding-left: 5px;
+  }
+
+.contacto {
+  display: block;
+  text-align: center;
+  width:25%;
+  order: 1;
+}
+
+.terminos {
+  display: block;
+  text-align: center;
+  width: 25%;
+  order: 2;
+}
+
+.Redes{
+    display: block;
+    text-align: center;
+    width: 25%;
+    order: 3
+  }
+
+.Redes img{
+  padding-left: 1em;
+  width: 30px;
+  border: none;
+  margin: 0 auto;
+}
+
+.Redes nav{
+  display: flex;
+  flex-flow: column;
+  float: left;
+  padding-left: 1em;
+}
+
+.reservados {
+  width: 25%;
+  order: 4;
+}
+
+.galeria1 , .galeria2{
+  display: flex;
+  flex-flow: row;
+    font-size: 0;
+    text-align: center;
+    background-color:  #d5c75f;
+}
+
+.galeria1 .img1, .img2, .img3{
+    width: 33.3%;
+    padding: 20px;
+}
+
+.galeria1 img {
+  height: 200px;
+  width: 100%;
+  box-shadow:2px 2px 2px 2px #02010a;
+}
+
+.galeria2 .img4, .img5, .img6{
+  width: 33.3%;
+  padding: 20px;
+}
+
+.galeria2 img {
+  height: 200px;
+    width: 100%;
+    box-shadow:2px 2px 2px 2px #02010a;
+}
+
+
+.img1 img{
+  filter: blur(10px);
+}
+
+.img2, .img4, .img6 img{
+  filter: grayscale(100%);
+}
+
+.img3 img{
+  filter: sepia(90%);
+}
+
+@media (max-width: 900px){
+
+#Contenedor{
+  width: 100%
+}
+#encabezado {
+  margin: auto;
+  padding: 0 auto;
+  display: block;
+font-size: 0.8em;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  font: 0.8em;
+  margin: auto;
+  padding: auto;
+}
+
+.menu> p {
+  width: 100%;
+  display: flex;
+  flex-flow:row-reverse;
+  margin: 0;
+
+  justify-content: center;
+}
+.menu> a{
+  display: block;
+  float: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.imagen_central {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.imagen1> img{
+  margin: 2em auto;
+  text-align: center;
+  width:90%;
+}
+
+.imagen-secundaria {
+    margin: 0 auto;
+    padding:0 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .imagen3> img{
+    margin: 0 auto;
+    padding: 0 auto;
+    float: none;
+    justify-content: center;
+
+  }
+
+
+
+  #contenedor3{
+    display: flex;
+    flex-flow: column;
+    font-size: 0.6em;
+  }
+
+  #contenedor3 div{
+    display: flex;
+    flex-flow: column;
+    margin: 2%;
+    padding: 10PX;
+    font-size: 1em;
+  }
+
+  #contenedor3 p{
+  font-size: 22px;
+  }
+
+  .contacto{
+    text-align: left;
+    width: 100%
+  }
+
+  .Redes{
+    text-align: left;
+    width: 100%
+  }
+
+  .reservados{
+    text-align: left;
+    width: 100%
+  }
+
+  .terminos{
+    text-align: left;
+    width: 100%
+  }
+
+  .galeria1, .galeria2{
+    margin: 0 auto;
+    margin-right: 12px;
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background-color:  #d5c75f;
+  }
+
+  img{
+  width: 90%;
+  border: 2px solid black;
+  }
+
+  .galeria1 .img1,.img2,.img3, img{
+    width: 90%;
+
+  }
+   .galeria2 .img4,.img5,.img6, img{
+    width: 90%;
+}
